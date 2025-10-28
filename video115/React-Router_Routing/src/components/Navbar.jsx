@@ -11,6 +11,7 @@ const Navbar = () => {
             <NavLink className={(e)=>{return e.isActive?"red": ""}} to="/about"><li>About</li></NavLink>
             <NavLink className={(e)=>{return e.isActive?"red": ""}} to="/login"><li>Login</li></NavLink>
             <NavLink className={(e)=>{return e.isActive?"red": ""}} to="/user"><li>User</li></NavLink>
+            
       </nav>
     </div>
   )

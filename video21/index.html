@@ -23,11 +23,14 @@
         [data-x=a]{
             color: rgb(29, 207, 50);
         }
+        #r{
+            color: orange; /* the specificity of this selector is 100 */
+        }
     </style>
 </head>
 <body>
     <div>
-        <h1 class="yellow cred cpurple" data-x="a">CSS specificity</h1>
+        <h1 class="yellow cred cpurple" data-x="a" id="r">CSS specificity</h1>
     </div>
 </body>
 </html>
